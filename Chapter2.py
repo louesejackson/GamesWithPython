@@ -37,3 +37,16 @@ NameError: name 'spma' is not defined
 >>> spam + 5
 8
 >>> 
+>>> clear
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    clear
+NameError: name 'clear' is not defined
+>>> spam
+3
+>>> spam = 15
+>>> spam =spam+5
+>>> 
+>>> spam = 15
+>>> spam = spam + 5
+>>> 
