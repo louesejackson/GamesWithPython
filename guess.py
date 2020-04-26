@@ -32,6 +32,6 @@ if guess == number:
 
 if guess != number:
     number = str(number)
-    print('Nope. The umber I was thinking of was ' + number)
+    print('Nope. The number I was thinking of was ' + number)
 
     
