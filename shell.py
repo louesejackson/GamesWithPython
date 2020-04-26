@@ -177,3 +177,35 @@ False
 >>> 'Goodbye' != 'Hello'
 True
 >>> 
+>>> 42 == 'Hello'
+False
+>>> 42 != '42'
+True
+>>> 
+>>> 
+>>> int('42')
+42
+>>> 3 + int('2')
+5
+>>> int('fourty-two')
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    int('fourty-two')
+ValueError: invalid literal for int() with base 10: 'fourty-two'
+>>> 
+>>> 
+>>> float('42')
+42.0
+>>> float (42)
+42.0
+>>> str(42)
+'42'
+>>> str(42.0)
+'42.0'
+>>> str(False)
+'False'
+>>> bool('')
+False
+>>> bool('any nonempty string')
+True
+>>> 
