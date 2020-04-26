@@ -139,3 +139,41 @@ Take a guess.
 89
 Good job, Mary! You guessed my number in 6 guesses!
 >>> 
+>>> 
+>>> spam = True
+>>> eggs = False
+>>> spam
+True
+>>> eggs
+False
+>>> 
+>>> 0 <6
+True
+>>> 6<0
+False
+>>> 50 < 10
+False
+>>> 50 > 10
+True
+>>> 10<10
+False
+>>> 
+>>> 10 == 10
+True
+>>> 10 == 11
+False
+>>> 11==10
+False
+>>> 10 != 10
+False
+>>> 10 != 11
+True
+>>> 'Hello' == 'Hello'
+True
+>>> 'Hello' == 'Goodbye'
+False
+>>> 'Hello' == 'HELLO'
+False
+>>> 'Goodbye' != 'Hello'
+True
+>>> 
