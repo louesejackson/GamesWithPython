@@ -111,4 +111,31 @@ Good job, Mary! You guessed my number in 5 guesses!
 8
 >>> random.randint(1,20)
 18
+>>> random.randint(1,4)
+3
+>>> random.randint(1000,2000)
+1068
+>>> 
+===== RESTART: /Users/mary/Desktop/GamesWithPython/GamesWithPython/guess.py ====
+Hello! What is your name?
+Mary
+Well, Mary, I am thinking of a number between 1 and 100.
+Take a guess.
+50
+Your guess is too low.
+Take a guess.
+80
+Your guess is too low.
+Take a guess.
+90
+Your guess is too high.
+Take a guess.
+85
+Your guess is too low.
+Take a guess.
+87
+Your guess is too low.
+Take a guess.
+89
+Good job, Mary! You guessed my number in 6 guesses!
 >>> 
